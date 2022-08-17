@@ -143,6 +143,7 @@ vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so
+vendor/lib64/com.dsi.ant@1.0.so
 vendor/lib64/libbtnv.so
 vendor/lib64/libsoc_helper.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
@@ -1016,6 +1017,7 @@ vendor/lib/c2.dolby.hevc.sec.dec.so
 vendor/lib/c2.dolby.store.so
 vendor/lib/libdolbyottcameracontrol.so
 vendor/lib/libdovi.so
+vendor/lib/libavservices_minijail_vendor.so
 
 # Media (VPU firmware)
 vendor/firmware/vpu20_1v.b00
