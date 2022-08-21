@@ -114,42 +114,28 @@ vendor/lib64/libresampler.so
 # Audio firmware
 vendor/firmware/tfa98xx.cnt
 
+# Bluetooth
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|cb5bb377067d79777d9ac632bd3085a730be01b6
+vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|9a89642e0fe0a6583cba94398d29313c3457ba0d
+vendor/lib64/libbtnv.so|641f52a9bf106ce14b4f847084f163c923dc7bae
+vendor/lib64/libsoc_helper.so|e79ca975e6d72e9c36407b8e484a00666b0bb4b2
+
 # Bluetooth (A2DP)
-vendor/lib/btaudio_offload_if.so
-vendor/lib/hw/audio.bluetooth_qti.default.so
+vendor/lib/hw/audio.bluetooth_qti.default.so|9d6dbbf4603c9da288de552d4432823597a278df
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so
-vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so
-vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
-vendor/lib/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so
-vendor/lib/libbluetooth_audio_session_qti.so
-vendor/lib/libbluetooth_audio_session_qti_2_1.so
-vendor/lib/vendor.qti.hardware.bluetooth_audio@2.1.so
-vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so
-vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so
-vendor/lib64/btaudio_offload_if.so
-vendor/lib64/hw/audio.bluetooth_qti.default.so
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so
-vendor/lib64/libbluetooth_audio_session_qti.so
-vendor/lib64/libbluetooth_audio_session_qti_2_1.so
-vendor/lib64/vendor.qti.hardware.bluetooth_audio@2.1.so
-
-# Bluetooth
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
-vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
-vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so
-vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
-vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so
-vendor/lib64/libbtnv.so
-vendor/lib64/libsoc_helper.so
-vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
-vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
-vendor/lib64/vendor.qti.hardware.fm@1.0.so
+vendor/lib/btaudio_offload_if.so|15ddccc27ac208b29fb390d64159de601f72053f
+vendor/lib/libbluetooth_audio_session_qti.so|2891083f29814e3f2a2c88eca124472eb081f0a7
+vendor/lib/libbluetooth_audio_session_qti_2_1.so|514ffc3613f3613077d28a2a168d1c40ced65d53
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so|dcdd0a74362b64e54278b5fb9cb903e9e91c0af3
+vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|374f62d697c3a1af3293962e97c852c5d1f87e57
+vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so|58bd01fb51f287dcc4da3011aa57848c9d3a9d4a
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|6b49865f15b9f2ae1f049623018db08a0bdbc03a
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|16af46f837b2b617dcf146ac478d08ea1a9800d1
+vendor/lib64/vendor.qti.hardware.fm@1.0.so|8bb6c293e00c49fc69378815b872b7ed0b67189b
 vendor/lib64/com.dsi.ant@1.0.so
-vendor/lib64/hw/com.dsi.ant@1.0-impl.so
+vendor/lib64/hw/com.dsi.ant@1.0-impl.so|ab5ad99ff48dac2cbe87e8c2847161bc302d1923
 
 # CAcert
 -vendor/app/CACertService/CACertService.apk
